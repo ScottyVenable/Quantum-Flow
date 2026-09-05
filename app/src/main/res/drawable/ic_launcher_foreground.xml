@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Central Fleet Command Core (Safe 66dp area: 21 to 87) -->
+    <!-- Outer interconnecting telemetry links -->
+    <path
+        android:strokeColor="#5000F0FF"
+        android:strokeWidth="1.5"
+        android:pathData="M54,30 L74,42 L74,66 L54,78 L34,66 L34,42 Z" />
+    <path
+        android:strokeColor="#4000E5FF"
+        android:strokeWidth="1.2"
+        android:pathData="M54,30 L54,54 M74,42 L54,54 M74,66 L54,54 M54,78 L54,54 M34,66 L54,54 M34,42 L54,54" />
+
+    <!-- Outer Agent Nodes -->
+    <!-- Top Node -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M54,26 A4,4 0 1,0 54,34 A4,4 0 1,0 54,26" />
+    <!-- Top-Right Node -->
+    <path
+        android:fillColor="#2979FF"
+        android:pathData="M74,38 A4,4 0 1,0 74,46 A4,4 0 1,0 74,38" />
+    <!-- Bottom-Right Node -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M74,62 A4,4 0 1,0 74,70 A4,4 0 1,0 74,62" />
+    <!-- Bottom Node -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M54,74 A4,4 0 1,0 54,82 A4,4 0 1,0 54,74" />
+    <!-- Bottom-Left Node -->
+    <path
+        android:fillColor="#FF9100"
+        android:pathData="M34,62 A4,4 0 1,0 34,70 A4,4 0 1,0 34,62" />
+    <!-- Top-Left Node -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M34,38 A4,4 0 1,0 34,46 A4,4 0 1,0 34,38" />
+
+    <!-- Central Grok/Fleet AI Hex Core -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M54,46 L61,50 L61,58 L54,62 L47,58 L47,50 Z" />
+    
+    <!-- Central Star Spark inside Core -->
+    <path
+        android:fillColor="#0B0F19"
+        android:pathData="M54,50 L55.5,53 L58.5,54 L55.5,55 L54,58 L52.5,55 L49.5,54 L52.5,53 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Fleet AI",
+  "description": "Autonomous AI fleet team app with thread-based multi-agent collaboration, task queues, MCP tools, and local model hosting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
